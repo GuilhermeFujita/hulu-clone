@@ -15,6 +15,7 @@ function Thumbnail({ result }) {
         alt={`Image ${result.title || result.original_name}`}
         height={1920}
         width={1080}
+        priority
       />
 
       <div className="p-2">
